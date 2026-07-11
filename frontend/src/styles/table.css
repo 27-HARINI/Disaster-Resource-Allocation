@@ -1,0 +1,128 @@
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.add-btn{
+    background:#1E88E5;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.add-btn:hover{
+    background:#1565C0;
+    transform:translateY(-2px);
+}
+
+.table-card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.search-box{
+    width:320px;
+    padding:12px;
+    border:1px solid #dcdcdc;
+    border-radius:10px;
+    outline:none;
+    margin-bottom:20px;
+    transition:.3s;
+}
+
+.search-box:focus{
+    border-color:#1E88E5;
+    box-shadow:0 0 8px rgba(30,136,229,.25);
+}
+
+.custom-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.custom-table th{
+    background:#0A2540;
+    color:white;
+    padding:14px;
+    letter-spacing:.5px;
+    text-align:left;
+}
+
+.custom-table td{
+    padding:14px;
+    border-bottom:1px solid #eeeeee;
+    vertical-align:middle;
+}
+
+.custom-table tbody tr{
+    transition:.3s;
+}
+
+.custom-table tbody tr:hover{
+    background:#F5F9FF;
+}
+
+.edit-btn{
+    background:#F9A825;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:8px;
+    margin-right:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.edit-btn:hover{
+    background:#F57F17;
+}
+
+.delete-btn{
+    background:#D32F2F;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.delete-btn:hover{
+    background:#B71C1C;
+}
+
+.status-active{
+    background:#d1fae5;
+    color:#065f46;
+    padding:6px 14px;
+    border-radius:20px;
+    font-weight:600;
+    display:inline-block;
+}
+
+.status-resolved{
+    background:#dbeafe;
+    color:#1e40af;
+    padding:6px 14px;
+    border-radius:20px;
+    font-weight:600;
+    display:inline-block;
+}
+
+.status-pending{
+    background:#fef3c7;
+    color:#92400e;
+    padding:6px 14px;
+    border-radius:20px;
+    font-weight:600;
+    display:inline-block;
+}

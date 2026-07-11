@@ -1,0 +1,68 @@
+:root{
+
+    --primary:#6C3BFF;
+    --primary-dark:#5631d8;
+
+    --secondary:#00C897;
+
+    --accent:#FFB703;
+
+    --danger:#FF5C5C;
+
+    --background:#F4F7FC;
+
+    --card:#FFFFFF;
+
+    --text:#1F2937;
+
+    --subtext:#64748B;
+
+    --border:#E5E7EB;
+
+    --shadow:0 15px 35px rgba(0,0,0,.08);
+
+    --radius:18px;
+
+}
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+}
+
+button{
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+input,select,textarea{
+
+    outline:none;
+
+    border:1px solid var(--border);
+
+}
+
+a{
+
+    text-decoration:none;
+
+}

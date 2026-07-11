@@ -1,0 +1,33 @@
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.page-header h1{
+    color:#0A2540;
+    font-size:34px;
+    margin-bottom:6px;
+}
+
+.page-header p{
+    color:#64748B;
+}
+
+.add-btn{
+    background:linear-gradient(135deg,#0A2540,#1E88E5);
+    color:white;
+    border:none;
+    padding:14px 24px;
+    border-radius:14px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.add-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(30,136,229,.35);
+}

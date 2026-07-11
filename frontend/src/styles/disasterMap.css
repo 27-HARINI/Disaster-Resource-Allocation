@@ -1,0 +1,27 @@
+.map-card{
+
+margin-top:35px;
+
+background:white;
+
+padding:25px;
+
+border-radius:22px;
+
+box-shadow:0 15px 30px rgba(0,0,0,.08);
+
+}
+
+.map-card h2{
+
+margin-bottom:20px;
+
+color:#0A2540;
+
+}
+
+.leaflet-container{
+
+border-radius:18px;
+
+}
