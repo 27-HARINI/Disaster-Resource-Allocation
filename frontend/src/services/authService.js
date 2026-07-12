@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/auth";
+const API = "https://disaster-resource-allocation-production.up.railway.app";
 
 export const loginUser = (data) => axios.post(`${API}/login`, data);
 

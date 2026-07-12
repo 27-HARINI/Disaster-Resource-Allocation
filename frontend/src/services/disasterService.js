@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/disasters";
+const API = "https://disaster-resource-allocation-production.up.railway.app";
 
 export const getDisasters = () => axios.get(API);
 
