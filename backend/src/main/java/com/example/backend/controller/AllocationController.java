@@ -9,7 +9,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/allocations")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+        "http://localhost:3000",
+        "https://honest-blessing-production-2f17.up.railway.app"
+})
 public class AllocationController {
 
     private final AllocationService allocationService;
